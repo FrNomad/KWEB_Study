@@ -1,0 +1,157 @@
+.emptySpace {
+  width: 100%;
+}
+
+#top-space {
+  height: 150px;
+}
+
+#name-top-space {
+  height: 40px;
+}
+
+#info-top-space {
+  height: 400px;
+}
+
+#info-bottom-space {
+  height: 400px;
+}
+
+#total-container {
+  display: grid;
+  grid-template: 1fr/1fr 2fr;
+}
+
+#logo-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 1000px;
+}
+
+#logo-area > a:first-child > * {
+  width: 85%;
+  margin-left: 7.5%;
+}
+
+#logo-area > a:last-child > * {
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+#content-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 85px;
+  margin-left: 5%;
+}
+
+#content-area > * {
+  width: 100%;
+}
+
+#sticky-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 250px;
+  background-color: #fff;
+}
+
+#name-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 80%;
+  margin-bottom: 10px;
+  flex-flow: row wrap;
+}
+
+#name-container > div:first-child {
+  font-size: 110px;
+  font-weight: 900;
+}
+
+#name-container > div:last-child {
+  font-size: 40px;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+#introduce-area {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.categoryBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.infoTitle {
+  font-size: 35px;
+  font-weight: 700;
+  width: fit-content;
+  background-color: #8b0029;
+  color: #fff;
+  padding: 0px 10px 3px 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.itemBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+.itemBox > div {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.rectPoint {
+  height: 15px;
+  width: 15px;
+  background-color: #feba17;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.categoryBox > hr {
+  border: 1px solid #bbb;
+  width: 75%;
+  margin: 20px 0px 20px 0px;
+}
+
+#fixed-button {
+  position: fixed;
+  width: 150px;
+  height: 50px;
+  align-self: flex-end;
+  bottom: 25px;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 20px;
+}
