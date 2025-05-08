@@ -1,0 +1,16 @@
+doctype html 
+html
+    head
+        titleIndexPage
+        meta(charset='utf-8')
+    body
+        form(action="/login", method="post") 
+            div 
+                label Username: 
+                input#username-input(type="text", name="username")
+            div 
+                label Password: 
+                input#password-input(type="text", name="password")
+            div Introduce yourself 
+            textarea#introduction-input(name="introduction")
+            button(type="submit") Submit 
